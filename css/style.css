@@ -1,0 +1,343 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header .header-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1000px;
+    background-color: #fff;
+}
+
+.icones {
+    text-align: center;
+}
+
+.container {
+    background-color: #fc6998;
+    text-align: center;
+}
+
+.container nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.container nav ul li a {
+    color: black;
+    padding: 20px 40px;
+    text-decoration: none;
+    display: block;
+}
+
+.container nav ul li a:hover {
+    background-color: #f7cac9;
+    color: #fff;
+    transition: .2s;
+}
+
+h3 {
+    text-align: center;
+    margin: 4%;
+    color: #b85a3a;
+}
+
+p {
+    text-align: center;
+    margin: 2%;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #e0115f;
+}
+
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.imagem-galeria {
+    width: 350px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.container-2 {
+    padding-inline: 32px;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding-block: 24px;
+}
+
+main img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, cursor 0.3s;
+}
+
+main img:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px #964b00;
+    cursor: pointer;
+}
+
+.sobre-nos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    padding: 4rem 8%;
+    background-color: #fff;
+}
+
+.sobre-nos .texto {
+    flex: 1;
+}
+
+.sobre-nos h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #b85a3a;
+    letter-spacing: 0.05rem;
+}
+
+.sobre-nos p {
+    color: #333;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.sobre-nos .imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-nos img {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.container-roupas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 24px;
+    padding-inline: 32px;
+    padding-block: 24px;
+    max-width: 1280px;
+    margin-inline: auto;
+}
+
+.container-roupas figure {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container-roupas figure:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.container-roupas img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container-roupas h5 {
+    margin-top: 10px;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+.container-roupas a {
+    display: inline-block;
+    margin-top: 8px;
+    background-color: #e0115f;
+    color: #fff;
+    padding: 6px 14px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.85rem;
+    transition: background-color 0.3s;
+}
+
+.container-roupas a:hover {
+    background-color: #b80e4c;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    padding: 60px 5%;
+}
+
+.info-loja {
+    max-width: 400px;
+    color: #333;
+}
+
+.map {
+    position: relative;
+    width: 550px;
+    height: 350px;
+    padding: 0 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.map iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(255, 249, 241);
+    padding: 60px 40px;
+    max-width: 400px;
+    margin: 60px auto;
+    border-radius: 15px;
+    color: #e0115f;
+}
+
+.formulario h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #b85a3a;
+}
+
+.button-contact {
+    background-color: #e0115f;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px auto;
+    display: block;
+    width: 150px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.barra {
+    background-color: #e0115f;
+    height: 5px;
+    width: 260px;
+    margin-bottom: 25px;
+}
+
+.barra-2 {
+    background-color: #e0115f;
+    height: 5px;
+    width: 100px;
+    margin-bottom: 25px;
+}
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.campo label {
+    font-weight: 600;
+    color: #b85a3a;
+}
+
+.campo input {
+    padding: 10px 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.lembrar-me {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 20px;
+    color: #b85a3a;
+    font-size: 0.9rem;
+}
+
+.footer {
+    text-align: center;
+    background-color: #e0115f;
+    color: white;
+    padding: 10px 0;
+    margin: 0;
+    font-size: 14px;
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+}
+
+.scroll-animation {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: all 0.8s ease-out;
+}
+
+.scroll-animation.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+@media (max-width: 425px) {
+    .header {
+        font-size: 10px;
+    }
+
+    .sobre-nos {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .container-roupas {
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    main img {
+        width: 120px;
+        height: 120px;
+    }
+}
