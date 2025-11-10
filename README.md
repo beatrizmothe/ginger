@@ -14,3 +14,4 @@ O objetivo é apresentar uma loja moderna, com seções sobre lançamentos, sobr
 ---
 
 👉 [**Acesse o site aqui**](https://beatrizmothe.github.io/ginger/)
+
